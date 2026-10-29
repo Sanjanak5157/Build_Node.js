@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Alex",
+    "age": 20,
+    "gender": "Male",
+    "phone": "9000000001",
+    "disease": "Fever",
+    "doctorId": 1
+  },
+  {
+    "id": 2,
+    "name": "John",
+    "age": 25,
+    "gender": "Male",
+    "phone": "9000000002",
+    "disease": "Diabetes",
+    "doctorId": 2
+  },
+  {
+    "id": 3,
+    "name": "Viki",
+    "age": 32,
+    "gender": "Female",
+    "phone": "9000000003",
+    "disease": "Migraine",
+    "doctorId": 1
+  }
+]

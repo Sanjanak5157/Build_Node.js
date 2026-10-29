@@ -1,0 +1,25 @@
+Client
+  │
+  │ HTTP Request
+  ▼
+app.js / server.js
+  │
+  │ app.use()
+  ▼
+routes/
+  │
+  │ decides which API endpoint
+  ▼
+controller/
+  │
+  │ handles request/response
+  ▼
+service/
+  │
+  │ business logic
+  ▼
+model/
+  │
+  │ database query
+  ▼
+Database

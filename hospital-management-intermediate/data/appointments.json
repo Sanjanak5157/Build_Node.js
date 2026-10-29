@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "patientId": 1,
+    "doctorId": 1,
+    "date": "2026-09-10",
+    "time": "10:00",
+    "status": "Scheduled"
+  },
+  {
+    "id": 2,
+    "patientId": 2,
+    "doctorId": 2,
+    "date": "2026-09-10",
+    "time": "11:00",
+    "status": "Completed"
+  }
+]

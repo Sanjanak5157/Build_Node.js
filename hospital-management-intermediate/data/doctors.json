@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Sarah",
+    "specialization": "General Medicine",
+    "experience": 8
+  },
+  {
+    "id": 2,
+    "name": "Dr. David",
+    "specialization": "Diabetology",
+    "experience": 10
+  }
+]

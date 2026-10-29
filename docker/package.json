@@ -1,0 +1,12 @@
+{
+  "name": "docker-example",
+  "version": "1.0.0",
+  "main": "express.js",
+  "scripts": {
+    "start": "nodemon express.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2",
+    "nodemon": "^2.0.22"
+  }
+}
