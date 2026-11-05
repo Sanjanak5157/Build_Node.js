@@ -1,0 +1,23 @@
+The interview process at Webknot Technologies typically consists of multiple rounds evaluating core computer science fundamentals, coding/problem-solving, low-level design, and project-based experience.
+
+Selection Process Rounds
+
+• Round 1 (Written / Online Assessment): Usually includes MCQs on development stacks and computer science fundamentals, alongside coding problems (such as Longest Increasing Subsequence, Balanced Binary Tree, Matrix DP, and Grouping Anagrams).
+• Round 2 (Coding Round): Focused on algorithmic problem-solving and dynamic programming (e.g., Coin Exchange problem).
+• Round 3 (Technical Round 1): In-depth discussion of resume projects, tech stacks used, role contribution, and matrix/array-based Data Structures and Algorithms (DSA).
+• Round 4 (Technical Round 2): Low-Level Design (LLD) questions, such as designing classes and methods for an e-commerce cart (e.g., Amazon Cart).
+• Round 5 (HR Round): Behavioral questions, cultural fit, communication skills, and understanding of the company.
+
+
+Hi @all 
+
+I'm listing below the current openings at our company. If you know any suitable candidates, please share their profiles with the HR Team. 
+
+1. Business Analyst (3+ years of experience)
+2. Digital Product Designer (3/4+ years of experience)
+3. AI/ML Engineers (Interns and Seniors)
+4. Java Spring Boot Developers (Interns and Seniors)
+5. SDET (0 - 3 years of experience)
+6. Business Development and Sales Intern
+
+Thank you!

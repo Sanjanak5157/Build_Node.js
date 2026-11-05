@@ -1,5 +1,7 @@
 const appointmentService = require("../services/appointmentService");
 
+
+
 async function getAppointments(req, res) {
   try {
     const appointments = await appointmentService.getAllAppointments();

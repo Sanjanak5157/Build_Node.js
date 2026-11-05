@@ -155,6 +155,7 @@
 
 
 
+
 // const result
 // const result =Patients.find(Patients => Patients.Age > 18)
 // // find first one and excutive
@@ -252,12 +253,12 @@
 // ]
 // const result = Patient.map(p => ({
 //     id:p.id,
-//     Name1:p.Name
+//     Name1: p.Name
 // }))
 
 // const result1 = Patient.map( p =>({
 //     id:p.id,
-//     Name: p.Name
+//     Name:p.Name
 
 // }))
 // console.log(result)
@@ -368,6 +369,10 @@ const r4 = patients.reduce((s,c)=>{
 
 }
 ,0)
+
+
+
+
 
 
 

@@ -1,0 +1,131 @@
+exam in simple words
+like the doctor frontend  to see the patients detalies what happendes in backend
+
+
+Yes. Let's take your **Mediunify Doctor frontend** example.
+
+Suppose the doctor clicks **"Patients"** and wants to see a patient's details.
+
+### What happens?
+
+```text
+Doctor Frontend
+      ↓
+"View Patient"
+      ↓
+Route
+      ↓
+Controller
+      ↓
+Service
+      ↓
+Database
+      ↓
+Service
+      ↓
+Controller
+      ↓
+Frontend
+```
+
+### In very simple words
+
+**1. Frontend**
+
+Doctor clicks:
+
+> View Patient
+
+The frontend sends a request:
+
+```text
+GET /api/patients/123
+```
+
+**2. Route**
+
+The route receives:
+
+```text
+/api/patients/123
+```
+
+and sends it to the correct controller.
+
+**3. Controller**
+
+The controller says:
+
+> "I need the details of patient 123."
+
+It calls the service.
+
+**4. Service**
+
+The service gets the patient information from the database:
+
+```text
+Name
+Age
+Phone
+Medical history
+Vitals
+Previous consultations
+Prescriptions
+```
+
+**5. Database**
+
+The database finds patient `123` and sends the information back.
+
+**6. Backend sends response**
+
+The backend sends the patient details to the frontend, usually as JSON:
+
+```json
+{
+  "name": "Rahul",
+  "age": 32,
+  "medicalHistory": "Diabetes",
+  "phone": "XXXXXXXXXX"
+}
+```
+
+**7. Frontend**
+
+The React Native/Expo app receives this data and displays:
+
+```text
+Patient Details
+
+Name: Rahul
+Age: 32
+Medical History: Diabetes
+Phone: XXXXXXXXXX
+```
+
+### The easiest way to remember
+
+```text
+Frontend → asks
+Route → directs
+Controller → handles
+Service → does the work
+Database → gives the data
+Backend → sends it back
+Frontend → shows it
+```
+
+So **Controller and Service are not directly visible to the doctor**. They work behind the scenes to get the patient data and send it to your doctor app.
+
+
+
+
+
+
+
+
+in code how it happenes show
+
+
+
