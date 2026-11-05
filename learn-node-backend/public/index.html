@@ -1,0 +1,67 @@
+<!--        !+tab       and    ctrl+\  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Managements</title>
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+    <div>
+        <h1>Student Managements Systems</title>
+        <p class="subtitle">Managements your studnet records </p>
+    
+        <div class="form-card">
+        <h2>Student form </h2>
+        <form id="studentForm">
+
+            <input 
+            type="text"
+            id="name"
+            placeholder="Name"
+            required>
+
+            <input 
+            type="email"
+            id="email"
+            placeholder="Email"
+            required>
+
+            <input
+            type="number"
+            id="age"
+            placeholder="Age"
+            required>
+
+            <button type="submit">Add student</button>
+        </form>
+    </div>
+
+    <div class="table-card">
+
+        <h2>Students lists</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                    </tr>
+                    </thead>
+                </thead>
+
+                <tbody id="studentList">
+                </tbody>
+            </table>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script></script>
+</body>
+</html>
+
+
